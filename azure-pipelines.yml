@@ -7,7 +7,7 @@ trigger:
 - master
 stages:
 - stage: buildstage
-- task: DotNetCoreCLI@2
+-task: DotNetCoreCLI@2
   inputs:
     command: 'build'
   jobs:

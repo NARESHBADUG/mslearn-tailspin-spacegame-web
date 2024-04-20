@@ -63,7 +63,7 @@ stages:
     - task: AzureRmWebAppDeployment@4
       inputs:
         ConnectionType: 'AzureRM'
-        azureSubscription: 'Pay-As-You-Go(049cc0b9-2696-4e70-871b-4366be487c19)'
+        azureSubscription: 'azure'
         appType: 'webApp'
-        WebAppName: 'webappstage202'
+        WebAppName: 'azure789'
         packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'

@@ -63,7 +63,7 @@ stages:
     - task: AzureRmWebAppDeployment@4
       inputs:
         ConnectionType: 'AzureRM'
-        azureSubscription: 'azure'
+        azureSubscription: 'alla'
         appType: 'webApp'
-        WebAppName: 'azure789'
+        WebAppName: 'vnet11'
         packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'

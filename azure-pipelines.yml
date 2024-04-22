@@ -63,7 +63,7 @@ stages:
     - task: AzureRmWebAppDeployment@4
       inputs:
         ConnectionType: 'AzureRM'
-        azureSubscription: 'naresh'
+        azureSubscription: 'app'
         appType: 'webApp'
-        WebAppName: 'pipeline321'
+        WebAppName: 'vnet321'
         packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'
